@@ -23,7 +23,7 @@ body{
     font-size:20px;
     padding: 0px;
     margin: 0px;
-    background-image: url(contato.jpg);
+    background-image: url(sobre.jpg);
 }
 
 #barra1 ul{
@@ -50,15 +50,25 @@ body{
     color: #571c56;
 }
 
-#c{
+#hist{
     font-family: 'Orbitron', sans-serif;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    left:45%;
-	top:30%;
+    left:25%;
+    top:30%;
+    right: 15%;
+    bottom: 40%;
     margin-left:-110px;
     color: #f8d092;
     -webkit-text-stroke-width: 1px; 
     -webkit-text-stroke-color: #553867;
+    opacity: 0.75;
+    background: linear-gradient(to bottom, #1b6141, #153428);
+    border-radius: 10px 10px 10px 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #404245;
 }
+
+

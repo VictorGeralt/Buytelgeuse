@@ -10,6 +10,15 @@ header{
 
 }
 
+#title a{
+    color: #f8d092;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #25245d;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
 body{
     font-size:20px;
     padding: 0px;
