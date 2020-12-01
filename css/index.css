@@ -1,3 +1,37 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #553867;
+    background-color: #553867;
+  }
+
+  .tab button {
+    background-color: inherit;
+    font-family: 'Orbitron', sans-serif;
+    color: #f8d092;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  .tab button:hover {
+    background-color: #553867;
+  }
+
+  .tab button.active {
+    background-color:#553867;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid#553867;
+    border-top: none;
+  }
+
+
 header{
     font-family: 'Orbitron', sans-serif;
     background-image: url(back.jpg);
@@ -27,30 +61,6 @@ body{
     margin: 0px;
 }
 
-#barra1 ul{
-    margin: 0;
-    background-color: #553867;
-    list-style: none;
-}
-
-#barra1 li{
-    display: inline;
-}
-
-#barra1 a{
-    font-family: 'Orbitron', sans-serif;
-    padding: 5px 50px;
-    display: inline-block;
-    color: #f8d092;
-    -webkit-text-stroke-width: 0.2px; 
-    -webkit-text-stroke-color: #25245d;
-    text-decoration: none;
-}
-
-#barra1 a:hover{
-    color: #571c56;
-}
-
 #logo{
     position: absolute;
     font-size: 60px;
@@ -62,7 +72,7 @@ body{
     -webkit-text-stroke-color: #25245d;
 }
 
-#mid{
+#PagPrincipal{
     font-family: 'Orbitron', sans-serif;
     background-image: url(init.jpg);
     height: 800px;
@@ -71,24 +81,16 @@ body{
 
 }
 
-#barra2 {
-    font-family: 'Orbitron', sans-serif;
-    padding: 5px 80px;
-    text-align: center;
-    background-color: #553867;
-    color: #f8d092;
-    -webkit-text-stroke-width: 0.2px; 
-    -webkit-text-stroke-color: #25245d;
-}
 
-#bot{
-    background-image: url(back.jpg);
+
+#Anuncios{
+    background-image: url(anuncio.jpg);
     background-size: cover;
     height: 500px 80px;
     background-position: center;
 }
 
-#bot ul{
+#Anuncios ul{
     margin: 0;
     list-style: none;
 }
@@ -115,4 +117,134 @@ img{
     -webkit-text-stroke-width: 0.5px; 
     -webkit-text-stroke-color: #38a48c;
     
+}
+
+
+#Catalogo{
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(back.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 500px 80px;
+    background-position: center;
+
+}
+
+#ul1 {
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px 80px;
+    text-align: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #38a48c;
+}
+
+img{
+    align-self: center;
+}
+
+
+
+#Leiloes{
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(leiloes.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#PlanetasLeiloados{
+    height: 2237px;
+}
+
+#le1{
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 80px;
+    text-align: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #25245d;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+}
+
+#le2{
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 80px;
+    text-align: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #25245d;
+    float: right;
+    width: 50%;
+    font-size: 30px;
+}
+
+#le3{
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 80px;
+    text-align: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #25245d;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+}
+
+#le4{
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 80px;
+    text-align: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: #25245d;
+    float: right;
+    width: 50%;
+    font-size: 30px;
+}
+
+#Sobre{
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(sobre.jpg);
+}
+
+#background{
+    height: 622px;
+}
+#hist{
+    margin-left: 200px;
+    margin-right:200px ;
+    margin-top: 130px;
+    color: #f8d092;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #553867;
+    opacity: 0.75;
+    background: linear-gradient(to bottom, #1b6141, #153428);
+    border-radius: 10px 10px 10px 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #404245;
+    font-size: 25px;
+    text-align: center;
+}
+
+#Contato{
+    background-image: url(contato.jpg);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background-size: cover;
+    font-size: 30px;
+    height: cover;
+    width: cover;
+    background-position: center;
+    color: #f8d092;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #553867;
+}
+
+#Mensagem{
+    height: 592px;
 }

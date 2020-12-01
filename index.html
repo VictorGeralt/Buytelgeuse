@@ -11,24 +11,23 @@
     <header>
         <div id=title><a href="index.html">&nbsp BuyTelgeuse</a></div>
 </header>
-    <div id=barra1>
-        <ul>
-            <li><a href="index.html">Pagina Inicial</a></li>
-            <li><a href="catalogo.html">Catalogo</a></li>
-            <li><a href="leiloes.html">Leilões</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contatos</a></li>
-        </ul>
-    </div> 
 
-    <div id=mid>
+
+<div class="tab">
+    <button id="item1" class="tablinks" onclick="openPag(event, 'PagPrincipal')" onmouseenter="TrocarCor(item1)">Pagina Inicial</button>
+    <button id="item2" class="tablinks" onclick="openPag(event, 'Anuncios')" onmouseenter="TrocarCor(item2)">Anuncios</button>
+    <button id="item3" class="tablinks" onclick="openPag(event, 'Catalogo')" onmouseenter="TrocarCor(item3)">Catalogo</button>
+    <button id="item4" class="tablinks" onclick="openPag(event, 'Leiloes')" onmouseenter="TrocarCor(item4)">Leilões</button>
+    <button id="item5" class="tablinks" onclick="openPag(event, 'Sobre')" onmouseenter="TrocarCor(item5)">Sobre</button>
+    <button id="item6" class="tablinks" onclick="openPag(event, 'Contato')" onmouseenter="TrocarCor(item6)">Contatos</button>
+  </div>
+  
+
+    <div id=PagPrincipal class="tabcontent">
         <p id="logo"> Seu site para compra e venda de planetas</p>
     </div>
-    <div id=barra2>
-        Principais  anuncios
-    </div> 
 
-    <div id=bot>
+    <div id=Anuncios class="tabcontent">
     <ul>
         <li id="l1">
             <p>Kepler-62e </p> 
@@ -42,4 +41,86 @@
         </li>
     </ul>
     </div>
+
+    <div id=Catalogo class="tabcontent">
+        <ul id="ul1">
+            <li id="l1">
+                <p>Kepler-62e </p> 
+                <img src="css/Kepler-62e.jpg">
+                <p>Maior Lance: R$ 227 quintilhões</p> 
+            </li>
+            <li id="l2">
+                <p>Kepler-22b </p> 
+                <img src="css/Kepler-22b.jpg">
+                <p>Maior Lance: R$ 212 quintilhões</p> 
+            </li>
+            <li id="l3">
+                <p>Gliese-876e</p> 
+                <img src="css/Gliese876-e.png">
+                <p>Maior Lance: R$ 183 quintilhões</p> 
+            </li>
+            <li id="l4">
+                <p>OGLE-2005-BLG-390Lb </p> 
+                <img src="css/OGLE-2005.jpg">
+                <p>Maior Lance: R$ 164 quintilhões</p> 
+            </li>
+            <li id="l5">
+                <p>CoRoT-7b </p> 
+                <img src="css/CoRoT-7b.jpg">
+                <p>Maior Lance: R$ 151 quintilhões</p> 
+            </li>
+            <li id="l6">
+                <p>16-Cygni-Bb</p> 
+                <img src="css/16-Cygni-Bb.webp">
+                <p>Maior Lance: R$ 120 quintilhões</p> 
+            </li>
+        </ul>
+    </div>
+
+    <div id=Leiloes class="tabcontent">
+    <div id=PlanetasLeiloados>
+    <ul>
+        <div id="le1">
+        <p>Ceres</p>
+        <img src="css/ceres.jpg">
+        <p>Maior lance: 82.3 quintilhões</p>
+        </div>
+
+        <div id="le2">
+        <p>Haumea</p>
+        <img src="css/Haumea.jpg">
+        <p>Maior lance: 78.6 quintilhões</p>
+        </div>
+    
+        <div id="le3">
+        <p>Eris</p>
+        <img src="css/Eris.jpg">
+        <p>Maior lance: 72.5 quintilhões</p>
+        </div>
+
+        <div id="le4">
+        <p>MakeMake</p>
+        <img src="css/MakeMake.jpg">
+        <p>Maior lance: 60.9 quintilhões</p>
+        </div>
+    </ul>
+    </div>
+    </div>
+
+    <div id=Sobre class="tabcontent"> 
+        <div id="background">
+        <div id=hist><br>Somos uma organizaçao de poderes descomunais que apos anos desbravando a existecia material terrena decidimos descansar e aproveitar esse tempo para vender os planetas conquistados por nosso grupo</br></div>
+    </div>
+    </div>
+        
+    <div id=Contato class="tabcontent">
+        <div id=Mensagem>
+        <p>Contato</p>
+        <p>Entre em contato conosco</p>    
+        <p><img src="css/tele.png" >(xx)5555-5555</p>
+        <p><img src="css/email.png" >email@contato.com</p>
+        </div>
+    </div> 
+
+    <script src="JavaS.js"></script>
 </body>
